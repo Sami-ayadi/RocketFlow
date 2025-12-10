@@ -1,6 +1,6 @@
-# 🚀 Orbital Insights
+# 🚀 RocketFlow
 
-**Orbital Insights** is a data warehouse and business intelligence project built around satellites launch data. It models real-world satellites and rockest information using a star schema, automates the ETL process with Python, and visualizes insights through Metabase dashboard.
+**RocketFlow** is a data warehouse and business intelligence project built around satellites launch data. It models real-world satellites and rockest information using a star schema, automates the ETL process with Python, and visualizes insights through Metabase dashboard.
 
 ## 📊 Project Overview
 
@@ -15,21 +15,6 @@ This project transforms raw satellite, rocket, and launch data into an analytica
 
 - **Python** — ETL scripts (pandas + psycopg2)
 - **PostgreSQL** — Star schema data warehouse
-- **Docker** — Containerized database setup
-
-## 🧱 Data Warehouse Design
-
-The schema is designed using a **factless fact table** to handle the many-to-many relationship between satellites and launches. It includes:
-
-- `dim_satellite`
-- `dim_rocket`
-- `dim_launch`
-- `dim_launch_site`
-- `dim_date`
-- `fact_satellite_launch`
-
-![star_schema](https://github.com/user-attachments/assets/77f4a7da-84f5-4efd-976a-0ff11a3dc908)
-
 
 ## ⚙️ ETL Automation
 
