@@ -49,7 +49,7 @@ CREATE TABLE dim_launch (
     launch_pad TEXT
 );
 
--- Fact Table (Factless)
+-- Facts Table (Factless)
 CREATE TABLE fact_satellite_launch (
     fact_id SERIAL PRIMARY KEY,
     date_key INTEGER REFERENCES dim_date(date_key),
@@ -58,3 +58,4 @@ CREATE TABLE fact_satellite_launch (
     satellite_key INTEGER REFERENCES dim_satellite(satellite_key),
     launch_key INTEGER REFERENCES dim_launch(launch_key)
 );
+
