@@ -62,8 +62,3 @@ Dimension tables are inserted with ON CONFLICT DO NOTHING to avoid duplicates.
 
 Fact table entries are inserted only after all foreign key lookups succeed.
 
-
-## 📊 KPI's
-
-![space dashboard_page](https://github.com/user-attachments/assets/dea4f75d-1881-4461-931a-0b8cddf2aebc)
-
