@@ -16,7 +16,7 @@ Sattelites :
  - Launch Vehicle
 
 
-Launches : 
+Launches :: 
  - Name
  - Date (Date , Time needs splitting) 
  - Status (Omit "Launch" , "Launch was Partial Failure")
@@ -35,4 +35,5 @@ Rockets :
  - Stages (missing values)
  - Straps-Ons (missing values)
  - Rocket Height (convert to float , missing values)
+
  - Price (convert to float , missing values)
